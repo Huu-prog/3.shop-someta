@@ -4,7 +4,7 @@
 import Slides from '@/components/slide/Slides.vue';
 import Policysection from '@/components/Theheader/Policysection.vue';
 import Categories from '@/components/Theheader/Categories.vue';
-import danhmucnoibat from '@/components/main/Categoryproductsection/danhmucnoibat.vue';
+import Danhmucnoibat from '@/components/main/Categoryproductsection/Danhmucnoibat.vue';
 // import Productlist from '@/components/main/Productlist.vue';
 import Casungonlua from '@/components/main/Categoryproductsection/Casungonlua.vue';
 import Anphaminvanphong from '@/components/main/Categoryproductsection/Anphaminvanphong.vue';
@@ -26,7 +26,7 @@ import Hotlinefloating from '@/components/Theheader/Hotlinefloating .vue';
 
 <!-- <Categories /> -->
 <!-- <Productlist /> -->
-<danhmucnoibat />
+<Danhmucnoibat />
 <Casungonlua categoryName="Ca sứ "
   categoryLink="/danh-muc/ca-su"
   :products="gomSuProducts" /> 
