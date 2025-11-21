@@ -9,7 +9,7 @@ import Danhmucnoibat from '@/components/main/Categoryproductsection/Danhmucnoiba
 import Casungonlua from '@/components/main/Categoryproductsection/Casungonlua.vue';
 import Anphaminvanphong from '@/components/main/Categoryproductsection/Anphaminvanphong.vue';
 import Dichvuinan from '@/components/main/Categoryproductsection/Dichvuinan.vue';
-import inandongphuc from '@/components/main/Categoryproductsection/inandongphuc.vue';
+import Inandongphuc from '@/components/main/Categoryproductsection/Inandongphuc.vue';
 import Quatangdoanhnghiep from '@/components/main/Categoryproductsection/Quatangdoanhnghiep.vue';
 import Quatangkhachhang from '@/components/main/Categoryproductsection/Quatangkhachhang.vue';
 import Hotlinefloating from '@/components/Theheader/Hotlinefloating .vue';
@@ -36,7 +36,7 @@ import Hotlinefloating from '@/components/Theheader/Hotlinefloating .vue';
 <Dichvuinan categoryName="Dịch vụ in ấn"
   categoryLink="/danh-muc/in ấn"
   :products="vanPhongProducts" /> 
-<inandongphuc categoryName="In ấn các loại áo đa dạng"
+<Inandongphuc categoryName="In ấn các loại áo đa dạng"
   categoryLink="/danh-muc/in ấn áo đa dạng "
   :products="vanPhongProducts" /> 
 <Quatangdoanhnghiep categoryName="Quà tặng doanh nghiệp"
